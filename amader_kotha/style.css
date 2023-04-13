@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(222, 245, 223);
+    margin: 0 6rem;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+hr{
+    border-color: #018954;
+    width: 580px;
+}
+.content{
+    text-align: left;
+    font-size: 25px;
+    
+}
+a{
+    color: #ff001a;
+    text-decoration: none;
+    transition: 0.8s cubic-bezier(0.7, 0.4, 0.04, 0.87);
+}
+h1{
+    font-size: 40px;
+}

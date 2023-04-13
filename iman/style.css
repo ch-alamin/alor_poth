@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(222, 245, 223);
+}
+.header-control{
+    text-align: center;
+    color: #018954;
+}
+
+h3{
+
+    text-align: center;
+    font-size: 27px;
+
+}
+hr{
+    border-color: #018954;
+    width: 580px;
+}
+p{
+   
+    margin: 3%;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 3%;
+    padding-top: 5%;
+}
+.two{
+    text-align: center;
+    font-size: 22px;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin: 3%;
+    font-size: 23px;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin: 3%;
+    font-size: 23px;
+}
+.content3{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin: 3%;
+    font-size: 23px;
+}
+.content4  {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin: 3%;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.content1 .pointer-link{
+    color: #018954;
+}
+.content2 .pointer-link{
+    color: #018954;
+}
+.content3 .pointer-link{
+    color: #018954;
+}
+.content4 .pointer-link{
+    color: #018954;
+}
+#more {
+    display: none;
+}
+ a{
+    padding-bottom: 0;
+    color: #f71231;
+    text-decoration: none;
+    transition: 0.8s cubic-bezier(0.7, 0.4, 0.04, 0.87);
+}

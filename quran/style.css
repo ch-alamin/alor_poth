@@ -1,0 +1,116 @@
+body{
+     background-color: #d1ffea;
+    font-family: 'Anek Bangla', sans-serif;
+}
+
+/* -------------------
+    Header Area Starts 
+---------------------*/
+/* Header Control */
+.header-control{
+    text-align: center;
+    color: #018954;
+}
+/* Page Title */
+.page-title{
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+/* Horizontal Line */
+hr{
+    border-color: #018954;
+    width: 580px;
+}
+/* -------------------
+    Header Area Ends 
+---------------------*/
+
+
+/* --------------------
+    Content Area Starts 
+----------------------*/
+/* Main Container */
+.main-container{
+    text-align: center;
+    color: #018954;
+}
+/* Content 1 */
+.content1{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+/* Content 2 */
+.content2{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-left: 6%;
+}
+/* Content 3 */
+.content3{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-left: 2%;
+}
+
+.quraish{
+    margin-left: -50px;
+}
+/* Content 4 */
+.content4{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+/* Title Name */
+.title{
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+/* Anchor */
+a{
+    color: #ff001a;
+    text-decoration: none;
+    transition: 0.8s cubic-bezier(0.7, 0.4, 0.04, 0.87);
+}
+
+a:hover{
+    color: #bc0a1c;
+}
+/* ------- */
+/* --------------------
+    Content Area Ends 
+----------------------*/
+
+.paragraph{
+    text-align: center;
+}
+
+
+
+/* Read More Button */
+#myBtn{
+    background: #ff001a;
+    width: 120px;
+    height: 45px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.8s ease;
+    color: #fdfafa;
+}
+
+#myBtn:hover{
+    background: #c50518;
+
+}
+#more {
+    display: none;
+}
